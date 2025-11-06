@@ -1,0 +1,43 @@
+/* 自定义样式 (style.css) */
+
+/* 首页英雄区域样式 */
+.hero-section {
+    min-height: 60vh;
+    /* 您可以替换成自己的图片 */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://picsum.photos/1920/1080?random=0');
+    background-size: cover;
+    background-position: center;
+}
+
+/* 导航栏自定义颜色 */
+.bg-primary {
+    /* 使用一个更沉稳的蓝色调 */
+    background-color: #0d47a1 !important;
+}
+
+/* 卡片悬停效果 */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease;
+}
+
+/* 服务页手风琴按钮样式 */
+.accordion-button {
+    font-weight: 500;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #0d47a1;
+}
+
+/* 地图占位符 */
+.map-placeholder {
+    height: 350px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    overflow: hidden;
+}
